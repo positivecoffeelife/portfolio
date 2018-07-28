@@ -162,7 +162,7 @@ h1, h2, h3 {
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
     font-size: 6rem; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
-    margin-bottom: 2rem;
+    margin: -25px 0 2rem 0;
     padding: 0.2rem 1rem;
     background: rgba(0, 79, 112, 0.5); }
 
@@ -229,6 +229,9 @@ main {
   background: #005a80;
   padding: 0.5rem;
   border-bottom: #19BBFF 5px solid; }
+
+.job h3 {
+  color: #19BBFF; }
 
 .projects {
   display: grid;
