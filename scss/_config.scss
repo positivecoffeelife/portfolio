@@ -3,9 +3,11 @@ $secondary-color:#19BBFF;
 $show-home-image: true;
 $show-about-image: true;
 $show-work-image: true;
+$show-contact-image: true;
 $home-image: url(../img/background.jpg);
 $about-image: url(../img/background_about.jpg);
 $work-image: url(../img/background_work.jpg);
+$contact-image: url(../img/background_contact.jpg);
 $background-opacity: 0.1;
 
 //mixins
@@ -55,6 +57,25 @@ $background-opacity: 0.1;
     @if $show-work-image{
         &#bg-work-img{
             background: $work-image;
+            background-attachment: fixed;
+            background-size: cover;
+
+            &:after{
+                content:'';
+                position: fixed;
+                top:0;
+                right:0;
+                width:100%;
+                height:100%;
+                background:rgba($primary-color, .9);
+                z-index: -1;
+            }
+        }
+    }
+
+    @if $show-contact-image{
+        &#bg-contact-img{
+            background: $contact-image;
             background-attachment: fixed;
             background-size: cover;
 
