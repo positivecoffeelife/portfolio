@@ -252,11 +252,11 @@ main {
   .boxes div {
     font-size: 2rem;
     border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 2rem;
     margin-bottom: 3rem;
     transition: all 0.6s ease-out; }
     .boxes div:hover {
-      padding: 0.5rem 1.5rem;
+      padding: 1rem 1.5rem;
       background: #19BBFF;
       color: #000; }
       .boxes div:hover span {
@@ -331,5 +331,9 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
+  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+    font-size: 4rem; }
+  .boxes div {
+    font-size: 1rem; }
   .projects {
     grid-template-columns: 1fr; } }
