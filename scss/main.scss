@@ -27,7 +27,7 @@ h1,h2,h3{
     }
 
     &.sm-heading{
-        margin-bottom:2rem;
+        margin:-25px 0 2rem 0;
         padding: 0.2rem 1rem;
         background: rgba(lighten($primary-color, 2), 0.5);
     }
@@ -118,6 +118,10 @@ main{
     background: lighten($primary-color,5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+}
+
+.job h3{
+    color: $secondary-color
 }
 
 //work and projects stuff
