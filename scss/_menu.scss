@@ -11,7 +11,7 @@
         width: 28px;
         height: 3px;
         margin:  0 0 5px 0;
-        background:set-text-color($primary-color);
+        background: set-text-color($primary-color);
         @include easeOut;
     }
 
@@ -25,7 +25,7 @@
             }
             //line 2 -hide
             &:nth-child(3){
-                opacity:0; 
+                opacity: 0; 
             }
             //line 3 -rotate
             &:nth-child(4){
@@ -35,16 +35,16 @@
 
         .text{
             transform: rotate(180deg);
-            color:set-text-color($primary-color);
+            color: set-text-color($primary-color);
         }
     }
 }
 
 //menu overlay
 .menu{
-    position:fixed;
-    top:0;
-    width:100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
     opacity: .97;
     visibility: hidden;
 
@@ -54,20 +54,20 @@
 
     &-branding, &-nav{
         display: flex;
-        flex-flow:column wrap;
+        flex-flow: column wrap;
         align-items: center;
         justify-content: center;
-        float:left;
-        width:50%;
-        height:100vh;
-        overflow:hidden;
+        float: left;
+        width: 50%;
+        height: 100vh;
+        overflow: hidden;
     }
 
     &-nav{
-        margin:0;
-        padding:0;
-        background:darken($primary-color,5);
-        list-style:none;
+        margin: 0;
+        padding: 0;
+        background: darken($primary-color,5);
+        list-style: none;
         transform: translate3d(0,-100%,0);
         @include easeOut;
 
@@ -89,12 +89,12 @@
         }
         
         .portrait{
-            width:250px;
-            height:250px;
-            background:url('../img/portrait.jpg');
-            background-position-x: -150px;
+            width: 250px;
+            height: 250px;
+            background: url('../img/portrait250x250.jpg');
+            //background-position-x: -150px;
             border-radius: 50%;
-            border:solid 3px $secondary-color;
+            border: solid 3px $secondary-color;
         }
     }
 
@@ -108,23 +108,23 @@
         }
 
         &.current > a {
-            color:$secondary-color;
+            color: $secondary-color;
         }
     }
 
     .nav-link{
         display: inline-block;
-        position:relative;
-        font-size:30px;
+        position: relative;
+        font-size: 30px;
         text-transform: uppercase;
-        padding:.5rem 0;
+        padding: 0.5rem 0;
         font-weight: 300;
-        color:set-text-color($primary-color);
+        color: set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
 
         &:hover{
-            color:$secondary-color;
+            color: $secondary-color;
         }
     }
 }

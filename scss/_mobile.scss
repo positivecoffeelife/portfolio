@@ -48,9 +48,9 @@
         transform: translate3d(100%,0,0);
 
         .portrait{
-            background:url('../img/portrait_small.jpg');
-            background-position-x: -199px;
-            background-position-y: -70px;
+            background:url('../img/portrait150x150.jpg');
+            //background-position-x: -199px;
+            //background-position-y: -70px;
             width:150px;
             height:150px;
         }
@@ -84,10 +84,17 @@
         }
     }
 
+    //
+    .bio{
+        font-size:1rem;
+    }
+
+    //contact
     .boxes div{
         font-size:1rem;
     }
 
+    //projects
     .projects{
         grid-template-columns: 1fr;
     }

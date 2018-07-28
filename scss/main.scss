@@ -115,9 +115,9 @@ main{
 }
 
 .job{
-    background:lighten($primary-color,5);
-    padding:0.5rem;
-    border-bottom:$secondary-color 5px solid;
+    background: lighten($primary-color,5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
 }
 
 //work and projects stuff
@@ -128,11 +128,11 @@ main{
 
     img{
         width:100%;
-        border:$primary-color 1px solid;
+        border: $primary-color 1px solid;
 
         &:hover{
-            opacity:0.4;
-            border-color:$secondary-color;
+            opacity: 0.4;
+            border-color: $secondary-color;
             @include easeOut;
         }
     }
@@ -144,21 +144,21 @@ main{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top:1rem;
+    margin-top: 1rem;
 
     div{
-        font-size:2rem;
-        border:3px #fff solid;
-        padding:1.5rem 2rem;
-        margin-bottom:3rem;
+        font-size: 2rem;
+        border: 3px #fff solid;
+        padding: 1.5rem 2rem;
+        margin-bottom: 3rem;
         @include easeOut;
 
         &:hover{
             padding: 1rem 1.5rem;
-            background:$secondary-color;
-            color:set-text-color($secondary-color);
+            background: $secondary-color;
+            color: set-text-color($secondary-color);
             span{
-                color:set-text-color($secondary-color);
+                color: set-text-color($secondary-color);
             }
         }
     }
@@ -167,14 +167,14 @@ main{
 
 //buttons stuff
 .btn{
-    display:block;
-    padding:0.5rem 1rem;
-    border:0;
-    margin-bottom:0.3rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem;
 
     &:hover{
-        background:$secondary-color;
-        color:set-text-color($secondary-color);
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
         
     }
 }
