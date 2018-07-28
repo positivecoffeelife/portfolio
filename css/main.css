@@ -140,6 +140,19 @@ body {
       height: 100%;
       background: rgba(0, 72, 102, 0.9);
       z-index: -1; }
+  body#bg-contact-img {
+    background: url(../img/background_contact.jpg);
+    background-attachment: fixed;
+    background-size: cover; }
+    body#bg-contact-img:after {
+      content: '';
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 72, 102, 0.9);
+      z-index: -1; }
 
 h1, h2, h3 {
   margin: 0;
@@ -150,6 +163,11 @@ h1, h2, h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(0, 79, 112, 0.5); }
+
+h6 {
+  margin: 0;
+  font-size: .8rem;
+  font-weight: 200; }
 
 a {
   color: #fff;
@@ -276,7 +294,7 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: left; }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
