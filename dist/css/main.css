@@ -162,7 +162,7 @@ h1, h2, h3 {
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
     font-size: 6rem; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
-    margin: -25px 0 2rem 0;
+    margin: -20px 0 2rem 0;
     padding: 0.2rem 1rem;
     background: rgba(0, 79, 112, 0.5); }
 
@@ -332,7 +332,9 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
-    font-size: 4rem; }
+    font-size: 3.5rem; }
+  h1.sm-heading, h2.sm-heading, h3.sm-heading {
+    font-size: 1rem !important; }
   .bio {
     font-size: 1rem; }
   .boxes div {
