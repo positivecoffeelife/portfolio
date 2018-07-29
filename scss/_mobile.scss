@@ -38,19 +38,21 @@
     }
 
     .menu-nav{
-        height:75vh;
+        height:55vh;
         transform: translate3d(-100%,0,0);
         font-size:24px;
     }
 
+    .menu .nav-link{
+        padding:0;
+    }
+
     .menu-branding{
-        height:25vh;
+        height:45vh;
         transform: translate3d(100%,0,0);
 
         .portrait{
             background:url('../img/portrait150x150.jpg');
-            //background-position-x: -199px;
-            //background-position-y: -70px;
             width:150px;
             height:150px;
         }
